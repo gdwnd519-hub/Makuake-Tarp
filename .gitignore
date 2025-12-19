@@ -1,0 +1,5 @@
+Travelbird_Submission_Package.zip
+~$*
+*.tmp
+__pycache__/
+*.pyc

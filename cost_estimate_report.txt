@@ -1,0 +1,43 @@
+# Cost Estimate Report (Tarp & Hammock)
+Date: 2025/12/18
+Rate: 1 USD = 150 JPY
+
+## Summary
+| Product | Air Freight (Courier) | Sea Freight (LCL) | Note |
+| :--- | :--- | :--- | :--- |
+| **Tarp** | **¥6,881** | **¥6,654** | Sea is slightly cheaper (-¥227) |
+| **Hammock** | **¥6,211** | **¥5,813** | Sea is cheaper (-¥398) |
+
+## Parameters
+- Exchange Rate: 150 JPY/USD
+- Duty Rate: 5%
+- Tax Rate: 10%
+- Quantity: 50 Tarps + 50 Hammocks (Total 100 units mixed)
+
+## Breakdown (Per Unit)
+
+### 1. Tarp (EXW $31.46 = ¥4,719)
+- Weight: 1.23kg / Vol: 0.0033m3
+- **Air Freight Mode**:
+  - Freight Cost: ¥1,547
+  - Duty/Tax: ~¥615
+  - **Total Landed: ¥6,881**
+- **Sea Freight Mode**:
+  - Freight/Fixed Cost: ¥1,332
+  - Duty/Tax: ~¥603
+  - **Total Landed: ¥6,654**
+
+### 2. Hammock (EXW $34.20 = ¥5,130)
+- Weight: 0.9kg / Vol: 0.00375m3
+- **Air Freight Mode**:
+  - Freight Cost: ¥493
+  - Duty/Tax: ~¥588
+  - **Total Landed: ¥6,211**
+- **Sea Freight Mode**:
+  - Freight/Fixed Cost: ¥118
+  - Duty/Tax: ~¥565
+  - **Total Landed: ¥5,813**
+
+## Recommendation
+- **Air Freight**: Fast (days). Good for maintaining stock and cash flow.
+- **Sea Freight**: Cheapest. Best for bulk orders where lead time (3-4 weeks) is acceptable.
