@@ -32,7 +32,7 @@ def create_contract_en():
 
     # Article 3
     doc.add_heading('Article 3  Products', level=1)
-    doc.add_paragraph('Product Name: Double-Pole Waterproof Tarp and Sunshade\nModel/Specifications:\nMaterial: 210T Polyester, PU2000 Waterproof Coating + Silver Sunshade Coating\nSize: 435 x 285 cm\nAccessories: Aluminum Alloy Poles (for Tarp, x2), Ground Pegs, Windproof Ropes, Elastic Ropes, Storage Bag, etc.\n*Trekking poles (Stands) are not included in the Product.\nOptional: Nomadnest Hammock\nAnd related accessories and products.')
+    doc.add_paragraph('Product Name: Double-Pole Waterproof Tarp and Sunshade\nModel/Specifications:\nMaterial: 210T Polyester, PU2000 Waterproof Coating + Silver Sunshade Coating\nSize: 435 x 285 cm\nAccessories: Ground Pegs, Windproof Ropes, Elastic Ropes, Storage Bag, 2 Gold-plated aluminum alloy support poles, etc.\n*Note: Black trekking poles/stands are not included in the Product.\nOptional: Nomadnest Hammock\nAnd related accessories and products.')
 
     # Article 4
     doc.add_heading('Article 4  Territory', level=1)
@@ -72,7 +72,7 @@ def create_contract_en():
 
     # Article 13
     doc.add_heading('Article 13  Term', level=1)
-    doc.add_paragraph('13.1 This Agreement shall be effective for 6 months from the date of signature.\n13.2 Unless written notice is given 30 days prior to the expiration of the term, it shall be automatically renewed (in 6-month units).')
+    doc.add_paragraph('13.1 This Agreement shall be effective for 8 months from the date of signature.\n13.2 Unless written notice is given 30 days prior to the expiration of the term, it shall be automatically renewed (in 8-month units).')
 
     # Article 14
     doc.add_heading('Article 14  Termination', level=1)
@@ -114,7 +114,7 @@ def create_contract_en():
     doc.add_paragraph('Date: _______________, 2025')
     doc.add_paragraph('Signature (or Seal): _____________________________')
 
-    file_path = 'Exclusive_Distribution_Agreement_DoublePoleTarp_DRAFT_EN.docx'
+    file_path = 'Exclusive_Distribution_Agreement_DoublePoleTarp_EN_DRAFT B.docx'
     doc.save(file_path)
     print(f"Successfully created {file_path}")
 

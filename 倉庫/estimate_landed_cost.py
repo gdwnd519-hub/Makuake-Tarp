@@ -74,8 +74,8 @@ def calculate_landed_cost(qty_tarp=50, qty_hammock=50):
         unit_hammock = total_hammock / qty_hammock if qty_hammock > 0 else 0
         
         print(f"\n[{mode_name}]")
-        print(f"  > Tarp Unit Cost:    ¥{unit_tarp:,.0f} (Product: ¥{TARP['price']*EXCHANGE_RATE:,.0f} + Log/Tax: ¥{unit_tarp - (TARP['price']*EXCHANGE_RATE):,.0f})")
-        print(f"  > Hammock Unit Cost: ¥{unit_hammock:,.0f} (Product: ¥{HAMMOCK['price']*EXCHANGE_RATE:,.0f} + Log/Tax: ¥{unit_hammock - (HAMMOCK['price']*EXCHANGE_RATE):,.0f})")
+        print(f"  > Tarp Unit Cost:    JPY {unit_tarp:,.0f} (Product: JPY {TARP['price']*EXCHANGE_RATE:,.0f} + Log/Tax: JPY {unit_tarp - (TARP['price']*EXCHANGE_RATE):,.0f})")
+        print(f"  > Hammock Unit Cost: JPY {unit_hammock:,.0f} (Product: JPY {HAMMOCK['price']*EXCHANGE_RATE:,.0f} + Log/Tax: JPY {unit_hammock - (HAMMOCK['price']*EXCHANGE_RATE):,.0f})")
         return unit_tarp, unit_hammock
 
     # --- Mode A: Air ---

@@ -32,7 +32,7 @@ def create_contract():
 
     # Article 3
     doc.add_heading('第3条　権限付与対象製品', level=1)
-    doc.add_paragraph('製品名：Double-Pole Waterproof Tarp and Sunshade（ダブルポール防水タープ＆サンシェード）\n型番・仕様：\n素材：210T ポリエステル、PU2000 防水コーティング + シルバーサンシェードコーティング\nサイズ：435×285cm\n付属品：アルミ合金製ポール（タープ用）、グランドペグ、防風ロープ、伸縮ロープ、収納バッグ等を含む一式\n※トレッキングポール（スタンド）は製品に含まれない。\nオプション：Nomadnest Hammock（ハンモック）\nおよびこれに関連する付属品・関連商品を対象とする。')
+    doc.add_paragraph('製品名：Double-Pole Waterproof Tarp and Sunshade（ダブルポール防水タープ＆サンシェード）\n型番・仕様：\n素材：210T ポリエステル、PU2000 防水コーティング + シルバーサンシェードコーティング\nサイズ：435×285cm\n付属品：グランドペグ、防風ロープ、伸縮ロープ、収納バッグ、タープ上部用金メッキアルミ合金製サポートポール2本等を含む一式\n※本製品に黒色のトレッキングポールは含まれない。\nオプション：Nomadnest Hammock（ハンモック）\nおよびこれに関連する付属品・関連商品を対象とする。')
 
     # Article 4
     doc.add_heading('第4条　権限付与領域', level=1)
@@ -72,7 +72,7 @@ def create_contract():
 
     # Article 13
     doc.add_heading('第13条　契約有効期間', level=1)
-    doc.add_paragraph('13.1　本契約は署名日から6ヶ月間有効とする。\n13.2　有効期間満了30日前までに書面通知がない場合、自動更新（6ヶ月単位）。')
+    doc.add_paragraph('13.1　本契約は署名日から8ヶ月間有効とする。\n13.2　有効期間満了30日前までに書面通知がない場合、自動更新（8ヶ月単位）。')
 
     # Article 14
     doc.add_heading('第14条　契約の終了', level=1)
@@ -114,7 +114,7 @@ def create_contract():
     doc.add_paragraph('署名日：2025年　　月　　日')
     doc.add_paragraph('署名（または押印）：_____________________________')
 
-    file_path = 'Exclusive_Distribution_Agreement_DoublePoleTarp_DRAFT.docx'
+    file_path = 'Exclusive_Distribution_Agreement_DoublePoleTarp_JA_DRAFT B.docx'
     doc.save(file_path)
     print(f"Successfully created {file_path}")
 
